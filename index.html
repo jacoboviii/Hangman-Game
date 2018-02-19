@@ -7,22 +7,39 @@
     <title>Hangman-Game</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/javascript/game.js"></script>
 
 </head>
 <body>
     <div class="jumbotron jumbotron-fluids text-center">
         <div class="container">
-            <h1 class="display-3">Hangman Capitals of The World</h1>
-            <p class="lead">Press any key to begin...</p>
+            <h1 class="display-4 badge-secondary">Hangman Countries in the World</h1>
+            <p class="lead badge-secondary">Press any key to begin...</p>
         </div>
     </div>
 
     <div class="container">
-        
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+        <div class="row">
+
+            <div class="col-md text-center">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">Wins</p>
+                        <p class="card-text" id="wins"></p>
+                        <p class="card-text" id="result-message"></p>
+                        <hr class="my-4">
+                        <p class="card-text">Current word</p>
+                        <p class="card-text" id="current-word"></p>
+                        <hr class="my-4">
+                        <p class="card-text">Number of guesses remaining</p>
+                        <p class="card-text" id="remaining-guesses"></p>
+                        <hr class="my-4">
+                        <p class="card-text">Letters already guessed</p>
+                        <p class="card-text" id="letters-guessed"></p>
+                    </div>
+                </div>
             </div>
           </div>
 
