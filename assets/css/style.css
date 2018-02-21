@@ -1,4 +1,6 @@
 .jumbotron {
     background-image: url("../images/map-background.png");
     background-size: cover;
+        color: black;
+        text-shadow: 2px 2px white;
 }
